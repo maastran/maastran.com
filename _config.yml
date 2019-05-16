@@ -16,6 +16,9 @@ exclude:
   - .sass-cache
   - .idea/
   - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  -
   - CNAME
 #permalink: /blog/:title
 excerpt_separator: <!--more-->
