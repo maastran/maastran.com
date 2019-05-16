@@ -18,7 +18,6 @@ exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
-  -
   - CNAME
 #permalink: /blog/:title
 excerpt_separator: <!--more-->
