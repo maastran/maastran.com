@@ -1,0 +1,30 @@
+
+title: MaaStran
+email: info@maastran.com
+description: >-
+  Public transit technology, blockchain travel tickets.
+baseurl: ""
+url: "https://www.maastran.com/"
+lang: "en"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-autoprefixer
+  - jekyll-minifier
+exclude:
+  - README.md
+  - .sass-cache
+  - .idea/
+  - .gitignore
+  - CNAME
+#permalink: /blog/:title
+excerpt_separator: <!--more-->
+autoprefixer:
+  browsers:
+    - last 2 versions
+sass:
+  style: compressed
+#collections:
+#  projects:
+#    output: true
+#    permalink: /projects/:title
