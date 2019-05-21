@@ -1,0 +1,14 @@
+.team-section {
+  @media (min-width: 992px) {
+    padding: 0.1rem 5rem 5rem 5rem;
+    hr {
+      border-color: $primary;
+      border-width: .25rem;
+      width: 30%;
+    }
+  }
+}
+
+.projects-section {
+  padding-bottom: 0;
+}
